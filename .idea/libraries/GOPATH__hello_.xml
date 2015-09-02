@@ -1,0 +1,44 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;hello&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../user-type-methods" />
+      <root url="file://$PROJECT_DIR$/../libcompose" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../code.google.com" />
+      <root url="file://$PROJECT_DIR$/../go-design-patterns.iml" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../go-design-patterns" />
+      <root url="file://$PROJECT_DIR$/../words" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../github.com/hashicorp/go-checkpoint/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/opencontainers/runc/.git" />
+      <root url="file://$PROJECT_DIR$/../.idea" />
+      <root url="file://$PROJECT_DIR$/../libcompose/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/mitchellh/packer/.git" />
+      <root url="file://$PROJECT_DIR$/../words/.idea" />
+      <root url="file://$PROJECT_DIR$/../github.com/flynn/go-shlex/.git" />
+      <root url="file://$PROJECT_DIR$/../user-type-methods/.idea" />
+      <root url="file://$PROJECT_DIR$/../code.google.com/p/go.crypto/.hg" />
+      <root url="file://$PROJECT_DIR$/../go-design-patterns/.idea" />
+      <root url="file://$PROJECT_DIR$/../code.google.com/p/go.crypto/ssh/testdata" />
+      <root url="file://$PROJECT_DIR$/../libcompose/Godeps/_workspace" />
+      <root url="file://$PROJECT_DIR$/../github.com/opencontainers/runc/Godeps/_workspace" />
+      <root url="file://$PROJECT_DIR$/../github.com/ugorji/go/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/mitchellh/go-fs/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../go-design-patterns/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/mitchellh/iochan/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/mitchellh/multistep/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/mitchellh/osext/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/hashicorp/yamux/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/goinaction/code/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/mitchellh/panicwrap/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/opencontainers/runc/.idea" />
+      <root url="file://$PROJECT_DIR$/../github.com/hashicorp/go-version/.git" />
+      <root url="file://$PROJECT_DIR$/../github.com/mitchellh/mapstructure/.git" />
+    </excluded>
+  </library>
+</component>
