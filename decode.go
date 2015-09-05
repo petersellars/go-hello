@@ -1,6 +1,7 @@
 // This sample program demonstrates how to decode a JSON response
 // using the json package and NewDecoder function
 package main
+
 import (
 	"log"
 	"net/http"
