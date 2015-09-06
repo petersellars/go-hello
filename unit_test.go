@@ -1,5 +1,5 @@
 // Sample test to show how to write a basic unit test
-package main_test
+package main
 
 import (
 	"testing"
