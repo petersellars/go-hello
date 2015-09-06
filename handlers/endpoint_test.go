@@ -8,6 +8,8 @@ import (
 	"net/http/httptest"
 	"encoding/json"
 	"hello/handlers"
+	"log"
+	"fmt"
 )
 
 const checkMark = "\u2713"
@@ -59,4 +61,25 @@ func TestSendJSON(t *testing.T) {
 			t.Error("\tShould have an Email.", ballotX, u.Email)
 		}
 	}
+}
+
+// ExampleSendJSON provides a basic example.
+func ExampleSendJSON() {
+	r, _ := http.NewRequest("GET", "/sendjson", nil)
+	w := httptest.NewRecorder()
+	http.DefaultServeMux.ServeHTTP(w, r)
+
+	var u struct {
+		Name 	string
+		Email 	string
+	}
+
+	if err := json.NewDecoder(w.Body).Decode(&u); err != nil {
+		log.Println("ERROR:", err)
+	}
+
+	// Use fmt to write to stdout to check the output.
+	fmt.Println(u)
+	// Output:
+	// {Bill bill@ardanstudios.com}
 }
